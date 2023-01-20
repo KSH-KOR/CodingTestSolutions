@@ -8,8 +8,8 @@ std::string to_format(const int number) {
 	return ss.str();
 }
 int main() {
-	const int start =21;
-	const int end = 40;
+	const int start =41;
+	const int end = 60;
 	for (int i = start; i <= end; i++) {
 		cout << "A" + to_format(i) << ", ";
 	}
